@@ -1,0 +1,17 @@
+ipython
+numpy
+pandas
+psycopg2_binary
+PyPDF2
+scikit_learn
+sentence_transformers
+spacy
+fastapi
+uvicorn
+python-multipart
+docx2txt
+openai
+pymysql
+cryptography
+openpyxl
+python-dotenv
