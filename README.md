@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In today's market, customers are no longer satisfied with one-size-fits-all products or generic services. With the rise of advanced technologies like generative AI, consumers have become accustomed to a level of personalization that tailors products, services, and experiences to their very specific preferences. This shift is transforming how businesses must engage with their customers.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,16 +24,29 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Unlock the future of shopping with AI that understands customer—not just customer's preferences, but their passions, their desires, and their dreams. Empowering customers with recommendations that feel as unique as they are—because personalization isn’t just a feature, it’s the foundation of meaningful connection.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Built an application with emerging AI capabilities which porvides a unique user experience that include different dashboards. These dashboards are of a wide range depending on customer's recent purchases, their shift from one product segment to another, based on multi-modal personalisation, sentiments, financial needs etc., Based on these factors, application would fetch the right suggestions to cater the customer needs.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Application is build by utilizing the below techonologies:
+1. Streamlit: For creating interactive web applications and the user to interact with Streamlit web appication
+2. FastAPI: For building APIs to handle requests, responses and Streamlit sends requests to the FastAPI backend. The processed data and visualizations are sent back to the Streamlit web application for display.
+3. Hugging Face: For NLP and other machine learning models and FastAPI may use Hugging Face models for NLP tasks
+4. Python: The main programming language used for scripting and data processing. FastAPI processes the data using Python scripts
+5. Amazon Q: For querying and managing data. FastAPI queries data from Amazon Q
+6. Excel As (Data Set): Excel files used as data sources. FastAPI reads data from Excel files using pandas
+7. Sklearn: For machine learning algorithms. FastAPI uses Sklearn for machine learning tasks
+8. Scipy: For scientific computing and sparse matrices. FastAPI uses Scipy for scientific computing
+9. Dall-E: For image generation. FastAPI generates images using Dall-E
+10. Gemini LLModel: For adaptive content recommendation. FastAPI uses Gemini LLModel for content recommendation
+11. Plotly: For creating graphs and visualizations. FastAPI generates graphs and visualizations using Plotly
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+1. Selection of right LLM model in building the application is a major blocker
+2. Fetching data dynamically based on customer interaction
+3. Preparing sample data that would allow the application to run smoothly
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -51,11 +64,15 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Streamlit / Hugging Face
+- 🔹 Backend: FastAPI / Python 
+- 🔹 Database: Excel As / Json Files
+- 🔹 Other: Amazon Q / Sklearn / Scipy / Dall-E / Gemini LLModel / Plotly / Nvidia / Microsoft / Phi-4-mini-imstruct
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+## 👥 Team - Mistral
+Vaibhav Gupta - [GitHub](#) | [LinkedIn](#)
+Anil Kudala - [GitHub](#) | [LinkedIn](#)
+Santosh Parida
+Ashish Kumar
+Venkata Siva Sairam Puranapanda
+
