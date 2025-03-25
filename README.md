@@ -72,7 +72,7 @@ Application is build by utilizing the below techonologies:
 ## 👥 Team - Mistral
 Vaibhav Gupta - [GitHub](#) | [LinkedIn](#)
 Anil Kudala - [GitHub](#) | [LinkedIn](#)
-Santosh Parida
-Ashish Kumar
-Venkata Siva Sairam Puranapanda
+Santosh Parida - [GitHub](#) | [LinkedIn](#)
+Ashish Kumar - [GitHub](#) | [LinkedIn](#)
+Venkata Siva Sairam Puranapanda - [GitHub](#) | [LinkedIn](#)
 
