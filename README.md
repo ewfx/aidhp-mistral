@@ -76,8 +76,12 @@ Application is build by utilizing the below techonologies:
 
 ## 👥 Team - Mistral
 Vaibhav Gupta 
+
 Anil Kudala 
+
 Santosh Parida 
+
 Ashish Kumar 
+
 Venkata Siva Sairam Puranapanda 
 
