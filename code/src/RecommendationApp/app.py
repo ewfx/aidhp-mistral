@@ -29,6 +29,46 @@ def main():
         except requests.exceptions.RequestException as e:
             st.error(f"Error calling API: {str(e)}")
             return None
+
+    def get_content_creation(category: str):
+        """
+        Get AI-generated content for a specific category.
+        
+        Args:
+            category (str): The category for content creation (e.g., 'Investment', 'Trading', 'Banking')
+            
+        Returns:
+            str: Generated content for the specified category
+            
+        Raises:
+            requests.exceptions.RequestException: If the API call fails
+            ValueError: If the category is invalid or empty
+        """
+        try:
+            # Input validation
+            if not category or not isinstance(category, str):
+                raise ValueError("Category must be a non-empty string")
+
+            # Make the API call
+            url = f"{API_BASE_URL}/contentcreation/{category}"
+            response = requests.get(url)
+            # Check if the request was successful
+            response.raise_for_status()
+            
+            # Return the generated content
+            return response.json()
+
+        except requests.exceptions.RequestException as e:
+            print(f"Error calling content creation API: {str(e)}")
+            return None
+        except ValueError as e:
+            print(f"Invalid input: {str(e)}")
+            return None
+        except Exception as e:
+            print(f"Unexpected error: {str(e)}")
+            return None
+    
+
     def hide_sidebar():
         st.markdown(
             """
@@ -266,8 +306,11 @@ def main():
                     for rec in content_recs.get('recommendations', []):
                         with st.expander(f"📑 {rec.get('title', 'No Title')} ({rec.get('type', 'Unknown')})"):
                             st.write(f"**Category:** {rec.get('category', 'Unknown')}")
+                            content = get_content_creation(rec.get('title', 'No Title'))
+                            st.write(content)
                             if 'description' in rec:
                                 st.write(f"**Description:** {rec['description']}")
+                                
                             if 'url' in rec:
                                 st.markdown(f"[View Content]({rec['url']})")
                 else:
@@ -809,6 +852,12 @@ def main():
     else:
         st.title("Welcome to Customer Analytics Dashboard")
         st.write("Please login to view your personalized dashboard.")
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        st.markdown(
+            "<p style='color:gray; font-weight:bold;'>Join us in building cutting-edge AI solutions that transform customer experiences by delivering actionable insights, optimizing customer engagement, and driving AI innovation to new heights.</p>",
+            unsafe_allow_html=True
+        )
 
     # Footer
     st.sidebar.markdown("---")
