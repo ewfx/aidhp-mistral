@@ -18,7 +18,7 @@ In today's market, customers are no longer satisfied with one-size-fits-all prod
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo]([https://youtu.be/bV7JA8PVZhk]) (if applicable)  
+📹 [Video Demo](https://youtu.be/bV7JA8PVZhk) (if applicable)  
 🖼️ Screenshots: 1
 
 ![Screenshot 1](link-to-image)
