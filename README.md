@@ -44,7 +44,7 @@ Application is build by utilizing the below techonologies:
 9. Dall-E: For image generation. FastAPI generates images using Dall-E
 10. Gemini LLModel: For adaptive content recommendation. FastAPI uses Gemini LLModel for content recommendation
 11. Plotly: For creating graphs and visualizations. FastAPI generates graphs and visualizations using Plotly
-12. LLm Model - Phi : For Content generatio
+12. LLm Model - Phi : For Content generation
 
 ## 🚧 Challenges We Faced
 1. Selection of right LLM model in building the application is a major challenge
