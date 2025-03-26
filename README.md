@@ -60,9 +60,9 @@ Application is build by utilizing the below techonologies:
    ```
 3. Run the project  
    ```sh
-   for api
+   #for api
    uvicorn app:app --reload  # or for api
-   for app
+   #for app
    streamlit run app.py # for app to run
    ```
 
