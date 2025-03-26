@@ -72,7 +72,7 @@ Application is build by utilizing the below techonologies:
 - 🔹 Frontend: Streamlit / Hugging Face
 - 🔹 Backend: FastAPI / Python 
 - 🔹 Database: Excel As / Json Files
-- 🔹 Other: Amazon Q / Sklearn / Scipy / Dall-E / Gemini LLModel / Plotly / Nvidia / Microsoft / Phi-4-mini-imstruct
+- 🔹 Other: Amazon Q / Sklearn / Scipy / Dall-E / Gemini LLModel / Plotly / Nvidia / Microsoft / Phi-4-mini-instruct
 
 ## 👥 Team - Mistral
 Vaibhav Gupta 
