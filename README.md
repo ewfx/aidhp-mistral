@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 AI-Driven Hyper-Personalization & Recommendation
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -37,18 +37,19 @@ Application is build by utilizing the below techonologies:
 2. FastAPI: For building APIs to handle requests, responses and Streamlit sends requests to the FastAPI backend. The processed data and visualizations are sent back to the Streamlit web application for display.
 3. Hugging Face: For NLP and other machine learning models and FastAPI may use Hugging Face models for NLP tasks
 4. Python: The main programming language used for scripting and data processing. FastAPI processes the data using Python scripts
-5. Amazon Q: For querying and managing data. FastAPI queries data from Amazon Q
+5. Amazon Q: For faster code development 
 6. Excel As (Data Set): Excel files used as data sources. FastAPI reads data from Excel files using pandas
 7. Sklearn: For machine learning algorithms. FastAPI uses Sklearn for machine learning tasks
 8. Scipy: For scientific computing and sparse matrices. FastAPI uses Scipy for scientific computing
 9. Dall-E: For image generation. FastAPI generates images using Dall-E
 10. Gemini LLModel: For adaptive content recommendation. FastAPI uses Gemini LLModel for content recommendation
 11. Plotly: For creating graphs and visualizations. FastAPI generates graphs and visualizations using Plotly
+12. LLm Model - Phi : For Content generatio
 
 ## 🚧 Challenges We Faced
-1. Selection of right LLM model in building the application is a major blocker
-2. Fetching data dynamically based on customer interaction
-3. Preparing sample data that would allow the application to run smoothly
+1. Selection of right LLM model in building the application is a major challenge
+2. Fetching data dynamically based on customer transaction
+3. Preparing and training sample data that would allow the application to run smoothly with required amount of data
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -61,7 +62,9 @@ Application is build by utilizing the below techonologies:
    ```
 3. Run the project  
    ```sh
+   for api
    uvicorn app:app --reload  # or for api
+   for app
    streamlit run app.py # for app to run
    ```
 
@@ -72,9 +75,9 @@ Application is build by utilizing the below techonologies:
 - 🔹 Other: Amazon Q / Sklearn / Scipy / Dall-E / Gemini LLModel / Plotly / Nvidia / Microsoft / Phi-4-mini-imstruct
 
 ## 👥 Team - Mistral
-Vaibhav Gupta - [GitHub](#) | [LinkedIn](#)
-Anil Kudala - [GitHub](#) | [LinkedIn](#)
-Santosh Parida - [GitHub](#) | [LinkedIn](#)
-Ashish Kumar - [GitHub](#) | [LinkedIn](#)
-Venkata Siva Sairam Puranapanda - [GitHub](#) | [LinkedIn](#)
+Vaibhav Gupta 
+Anil Kudala 
+Santosh Parida 
+Ashish Kumar 
+Venkata Siva Sairam Puranapanda 
 
