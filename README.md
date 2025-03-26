@@ -17,7 +17,7 @@
 In today's market, customers are no longer satisfied with one-size-fits-all products or generic services. With the rise of advanced technologies like generative AI, consumers have become accustomed to a level of personalization that tailors products, services, and experiences to their very specific preferences. This shift is transforming how businesses must engage with their customers.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
+🔗 [Live Demo](https://huggingface.co/spaces/Vaibhav84/RecommendationApp) (Live Demo Link Added)
 📹 [Video Demo](https://youtu.be/bV7JA8PVZhk) (if applicable)  
 🖼️ Screenshots: 1
 [![Video Link](https://img.youtube.com/vi/bV7JA8PVZhk/hqdefault.jpg)](https://youtu.be/bV7JA8PVZhk)
