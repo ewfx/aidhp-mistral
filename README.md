@@ -23,8 +23,6 @@ In today's market, customers are no longer satisfied with one-size-fits-all prod
 🖼️ Screenshots: 1
 [![Video Link](https://img.youtube.com/vi/bV7JA8PVZhk/hqdefault.jpg)](https://youtu.be/bV7JA8PVZhk)
 
-![Screenshot 1](link-to-image)
-
 ## 💡 Inspiration
 Unlock the future of shopping with AI that understands customer—not just customer's preferences, but their passions, their desires, and their dreams. Empowering customers with recommendations that feel as unique as they are—because personalization isn’t just a feature, it’s the foundation of meaningful connection.
 
