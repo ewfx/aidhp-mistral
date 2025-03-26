@@ -18,6 +18,7 @@ In today's market, customers are no longer satisfied with one-size-fits-all prod
 
 ## 🎥 Demo
 🔗 [Live Demo](https://huggingface.co/spaces/Vaibhav84/RecommendationApp) (Live Demo Link Added)
+
 📹 [Video Demo](https://youtu.be/bV7JA8PVZhk) (if applicable)  
 🖼️ Screenshots: 1
 [![Video Link](https://img.youtube.com/vi/bV7JA8PVZhk/hqdefault.jpg)](https://youtu.be/bV7JA8PVZhk)
